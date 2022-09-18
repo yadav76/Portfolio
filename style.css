@@ -11,7 +11,7 @@ html{
 
 body{
     background-color: #080808;
-    color: #000;
+    color: #fff;
 }
 
 .container1{
@@ -86,7 +86,6 @@ nav ul li a:hover::after{
 }
 
 .header-text p{
-    color: #333;
     margin-bottom: 20px;
 }
 
