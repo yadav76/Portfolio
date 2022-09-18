@@ -7,6 +7,7 @@
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/78f3d4fa6d.js" crossorigin="anonymous"></script>
+    <!-- <script src="script.js"></script> -->
 </head>
 <body>
     <div class="" id="header">
@@ -25,8 +26,11 @@
                 <i class="fas fa-bars" onclick="openmenu()"></i>   <!-- Menu icon -->
             </nav>
             <div class="header-text">
-                <p>Web Developer</p>
-                <h1>Hi, I'm <span>Santosh</span><br>Yadav From India</h1>
+                <h1>Hi, I'm <span>Santosh Yadav</span></h1>
+                <p>I'm <span class="typing"></span></p>
+                <p id="bio">I am enthusiastic about learning new things and apply it on my work and life. <br>
+                    Things I do range from problem solving to web development. For me the best <br> way to 
+                    learn something is to Google your way through it.</p>
             </div>
         </div>
     </div>
@@ -39,7 +43,7 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I am Santosh Yadav. I have Completed my Bacherlor's Degree in December 2020 from Mumbai University. Then I have a Worked in Insurance Coverage Company at Data Entry Post for 4 Months. Then I have Done A <Span style="Color:#3304a8">Full Stack Web Development</Span> Course From AccioJob. These is My Portfolio Where anyone Can see my Projects that I have made during my Web Development Journey.</p>
+                    <p>I am Santosh Yadav. I have Completed my Bacherlor's Degree in December 2020 from Mumbai University. Then I have a Worked in Insurance Coverage Company at Data Entry Post for 4 Months. Then I have Done A <Span style="Color:#ce3c43a4">Full Stack Web Development</Span> Course From AccioJob. These is My Portfolio Where anyone Can see my Projects that I have made during my Web Development Journey.</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('Experience')">Experience</p>
@@ -166,6 +170,10 @@
             <p>Copyright © By Santosh. Made with <i class="fa-solid fa-heart"></i></p>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
     <script>
         
         var tablinks = document.getElementsByClassName("tab-links");

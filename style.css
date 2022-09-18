@@ -78,7 +78,18 @@ nav ul li a:hover::after{
 
 .header-text h1{
     margin-top: 20px;
-    font-size: 60px;
+    font-size: 30px;
+}
+
+.header-text p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#bio{
+    font-size: 20px;
+    color: #eeddff;
+    line-height: 25px;
 }
 
 .header-text h1 span{
